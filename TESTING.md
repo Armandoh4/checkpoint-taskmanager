@@ -1,3 +1,71 @@
 # Testing - Task Manager
 
 ![Overview](assets/readme_img/overview.png)
+
+
+
+---
+## Contents:
+  * [W3C Validator](#w3c-html-validaton)
+  * [Jigsaw](#jigsaw-css-validation)
+  * [Testing User Stories](#testing-user-stories)
+---
+
+
+## Jigsaw CSS Validation
+    
+| Bug (class)   | Error  | Soloution & Result |
+| :------------ |:---------------| :-----|
+|||
+|||
+
+![Jigsaw CSS](assets/readme_img/jigsawcssvalidator1.png)
+
+The following 'errors' did not affect my code in any meaningful way, and by removing this code, my website would loose features. For example, code such as "-webkit-tap-highlight-color: transparent;" can have a positive effect on the webpage, such as removing the blue box when a button on a mobile is clicked, improving mobile UX.
+
+![Jigsaw CSS](assets/readme_img/jigsawcssvalidator.png)
+
+
+## W3C HTML Validation
+
+### *index.html:*
+
+| Error | Soloution & Result | Pass or Fail |
+| :-------- | :-----|:- |
+|||
+|||
+
+### *films.html:*
+| Error | Soloution & Result | Pass or Fail |
+| :-------- | :-----|:- |
+|||
+
+### *about.html:*
+| Error | Soloution & Result | Pass or Fail |
+| :-------- | :-----|:- |
+|||
+
+
+### *bts.html:*
+| Error | Soloution & Result | Pass or Fail |
+| :-------- | :-----|:- |
+| Attribute src not allowed on element button|Since src is not the correct element to apply to a button I applied the img tag instead |Pass|
+
+### *Films section | Kidnapped |Killer Santa | Once Upon a Time:*
+| Error | Soloution & Result | Pass or Fail |
+| :-------- | :-----|:- |
+|||
+
+## Testing User Stories:
+
+### First Time Visitor
+| User Story |Pass or Fail |Soloution & Result |
+| :---- |:-- |:-------|
+|1 - ||
+|2 - ||
+|3 - ||
+
+### Returning Visitor GOAL
+| User Story |Pass or Fail |Soloution & Result |
+| :---- |:-- |:-------|
+|1 - |||
