@@ -1,7 +1,12 @@
 let addButton = id;
 addButton onclick{
     if(addButton = 1){
-        display on
+        display = on
     }
-    else{addButton--}
+    else{addButton--,
+        Style = display:hidden;
+    }
 }
+
+
+// input from id=inputBox

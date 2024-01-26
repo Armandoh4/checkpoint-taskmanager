@@ -29,7 +29,7 @@
     background: #000000;
   }
   .centredBox{
-    background-color: #7d7676;
+    background-color: rgb(100, 54, 4);
     border-radius: 18px;
     padding: 1rem;
     display: flex;
@@ -37,7 +37,6 @@
     gap: max(3vw, 20px);
     width: min(20rem, 90vw);
     margin: 4rem;
-
   }
   .grid{
     display: grid;
@@ -45,6 +44,12 @@
     row-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 5%;
+    justify-content: space-between;
+
+  }
+  .justifyRight{
+    display: flex;
+    justify-content: right;
   }
 
   .header{
@@ -53,4 +58,13 @@
   .row{
     display: flex;
     gap: 1rem;
+  }
+  .addButton{
+    border-radius: 14px;
+    padding: 8px;
+    background-color: rgb(63, 34, 3);
+    color: rgb(200, 200, 200); /*input text-colour for the user*/
+  }
+  .txtInput{
+    height: 1.5rem;
   }
