@@ -15,6 +15,9 @@
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   body::-webkit-scrollbar {
     width: 0.55rem;
@@ -32,6 +35,9 @@
     display: flex;
     flex-flow: column wrap;
     gap: max(3vw, 20px);
+    width: min(20rem, 90vw);
+    margin: 4rem;
+
   }
   .grid{
     display: grid;
