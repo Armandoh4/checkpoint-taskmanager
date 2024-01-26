@@ -46,3 +46,11 @@
     grid-template-columns: 1fr 1fr;
     padding-bottom: 5%;
   }
+
+  .header{
+    text-decoration: underline;
+  }
+  .row{
+    display: flex;
+    gap: 1rem;
+  }
