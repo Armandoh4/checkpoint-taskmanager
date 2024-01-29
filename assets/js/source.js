@@ -5,6 +5,18 @@
 
 const appForm = document.getElementById('appForm');
 const taskList = document.getElementById('taskList');
+const taskCount = document.getElementById('task-count')
+
+if (localStorage.getItem('tasks')) {// Here I will add a new task when the form holds a value of more than one value
+    const task = localStorage.getItem('tasks').split('|');
+    for (t in task){
+        const taskItem = document.createElement(li);
+        taskItem.classList.add('task-item');
+        taskItem.textContent = taskText;
+        taskList.appendChild(taskItem);
+    }
+    taskCount.textContent = task.length;
+}
 
 appForm.addEventListener('submit', function (event) {  
     event.preventDefault();
@@ -18,12 +30,10 @@ appForm.addEventListener('submit', function (event) {
         taskItem.textContent = taskText;
         taskList.appendChild(taskItem);
     }
-});
+    txtInput.value = '';
 
-// function adInputBox() {
-//     document.getElementById('adInputBox').style.display = "none";
-// };
-// const adInputBox = document.getElementById('adInputBox');
+    taskCount.textContent = document.getElementsByTagName('li').length;
+});
 
 // let addButton = id;
 // addButton onclick{
