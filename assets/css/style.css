@@ -65,6 +65,12 @@
     background-color: rgb(63, 34, 3);
     color: rgb(200, 200, 200); /*input text-colour for the user*/
   }
+  .addButton > svg{
+    width: 2.2rem;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    filter: brightness(65%);
+  }
   .txtInput{
     height: 1.5rem;
   }
