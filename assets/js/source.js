@@ -1,19 +1,30 @@
-function addButtonClicked() { // The add button click event
-    document.getElementsByClassName('addButton').style.display = "none";
-    let 
-};
+// function addButtonClicked() { // The add button click event
+//     document.getElementsByClassName('addButton').style.display = "none";
+//     let 
+// };
 
 const appForm = document.getElementById('appForm');
 const taskList = document.getElementById('taskList');
 
 
 
+console.log(appForm);
+console.log(taskList);
 
-const adInputBox = document.getElementById('adInputBox');
+appForm.addEventListener('submit', function (event) {  
+    event.preventDefault();
 
-function adInputBox() {
-    document.getElementById('adInputBox').style.display = "hidden";
-};
+    const taskList = document.getElementById('taskList');
+    const taskText = txtInput.value.trim();
+    console.log(taskText);
+    }
+);
+
+
+// function adInputBox() {
+//     document.getElementById('adInputBox').style.display = "none";
+// };
+// const adInputBox = document.getElementById('adInputBox');
 
 
 // let addButton = id;
