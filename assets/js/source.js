@@ -6,26 +6,24 @@
 const appForm = document.getElementById('appForm');
 const taskList = document.getElementById('taskList');
 
-
-
-console.log(appForm);
-console.log(taskList);
-
 appForm.addEventListener('submit', function (event) {  
     event.preventDefault();
-
-    const taskList = document.getElementById('taskList');
+    const txtInput = document.getElementById('txtInput');
     const taskText = txtInput.value.trim();
-    console.log(taskText);
-    }
-);
+    // console.log(taskText);
 
+    if (taskText !== '') {// Here I will add a new task when the form holds a value of more than one value
+        const taskItem = document.createElement('li');
+        taskItem.classList.add('task-item');
+        taskItem.textContent = taskText;
+        taskList.appendChild(taskItem);
+    }
+});
 
 // function adInputBox() {
 //     document.getElementById('adInputBox').style.display = "none";
 // };
 // const adInputBox = document.getElementById('adInputBox');
-
 
 // let addButton = id;
 // addButton onclick{
