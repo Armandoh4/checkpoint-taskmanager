@@ -1,10 +1,10 @@
 function addButtonClicked() { // The add button click event
-    document.getElementById('addButton').style.display = "none";
-
+    document.getElementsByClassName('addButton').style.display = "none";
+    let 
 };
 
-
-let txtInput = document.getElementById('txtInput');
+const txtInput = document.getElementById('txtInput');
+const adInputBox = document.getElementById('adInputBox');
 
 function adInputBox() {
     document.getElementById('adInputBox').style.display = "hidden";
@@ -21,5 +21,3 @@ function adInputBox() {
 //     }
 // }
 // for in loop to itterate through properties 
-
-// input from id=inputBox
