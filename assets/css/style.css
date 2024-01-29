@@ -10,7 +10,7 @@
   }
   body {
     color: rgb(255, 255, 255);
-    background-color: #14151b;
+    background-color: #3b4372;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -28,8 +28,11 @@
   body::-webkit-scrollbar-thumb {
     background: #000000;
   }
+  h1{
+    line-height: 0;
+  }
   .centredBox{
-    background-color: rgb(100, 54, 4);
+    background-color: rgb(114, 16, 5);
     border-radius: 18px;
     padding: 1rem;
     display: flex;
@@ -38,11 +41,11 @@
     width: min(20rem, 90vw);
     margin: 4rem;
   }
-  .grid{
+  .grid{ /* grid Display for the input box and the rest of the contents in checklist*/
     display: grid;
     column-gap: 1rem;
     row-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     padding-bottom: 5%;
     justify-content: space-between;
 
@@ -51,9 +54,16 @@
     display: flex;
     justify-content: right;
   }
-
   .header{
     text-decoration: underline;
+    color: rgba(240, 255, 255, 0.876);
+  }
+  .header > img {
+    height: 2rem;
+    width: auto;
+    padding-left: 0.5rem;
+    transform: translateY(0.4rem);
+    filter: invert(95%);
   }
   .row{
     display: flex;
@@ -62,15 +72,30 @@
   .addButton{
     border-radius: 14px;
     padding: 8px;
-    background-color: rgb(63, 34, 3);
+    background-color: rgb(63, 3, 3);
     color: rgb(200, 200, 200); /*input text-colour for the user*/
+    border-style:solid;
   }
   .addButton > svg{
-    width: 2.2rem;
-    height: auto;
+    width: auto;
+    height: 70%;
     background-color: rgba(255, 255, 255, 0);
-    filter: brightness(65%);
+    filter: brightness(80%);
+  }
+  .uploadButton{
+    height: auto;
+    width: 2.5rem;
+    background-color: #00000000;
+    border-style:solid;
+    border-radius: 10%;
+
   }
   .txtInput{
-    height: 1.5rem;
+    height: 77%;
+    border-style:solid;
+    width: 100%;
+  }
+
+  #addButton{
+    display: none;
   }

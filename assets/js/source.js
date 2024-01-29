@@ -1,6 +1,13 @@
-function adInputBox() {
+function addButtonClicked() { // The add button click event
     document.getElementById('addButton').style.display = "none";
-    
+
+};
+
+
+let txtInput = document.getElementById('txtInput');
+
+function adInputBox() {
+    document.getElementById('adInputBox').style.display = "hidden";
 };
 
 
