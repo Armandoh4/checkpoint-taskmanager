@@ -3,7 +3,12 @@ function addButtonClicked() { // The add button click event
     let 
 };
 
-const txtInput = document.getElementById('txtInput');
+const appForm = document.getElementById('appForm');
+const taskList = document.getElementById('taskList');
+
+
+
+
 const adInputBox = document.getElementById('adInputBox');
 
 function adInputBox() {

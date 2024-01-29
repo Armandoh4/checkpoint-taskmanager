@@ -85,9 +85,17 @@
   .uploadButton{
     height: auto;
     width: 2.5rem;
-    background-color: #00000000;
+    background-color: #6c0000;
     border-style:solid;
     border-radius: 10%;
+  }
+  .uploadButton:hover{ /*animation & highlight effect for the upload button*/
+    transition: 550ms;
+    filter: brightness(50%);
+    background-color: #a60707;
+  }
+  .uploadButton:not(:hover){
+    transition: 950ms;
 
   }
   .txtInput{
