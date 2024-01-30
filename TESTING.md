@@ -35,26 +35,17 @@ The following 'errors' did not affect my code in any meaningful way, and by remo
 |||
 |||
 
-### *films.html:*
-| Error | Soloution & Result | Pass or Fail |
-| :-------- | :-----|:- |
-|||
-
-### *about.html:*
-| Error | Soloution & Result | Pass or Fail |
-| :-------- | :-----|:- |
-|||
 
 
-### *bts.html:*
-| Error | Soloution & Result | Pass or Fail |
-| :-------- | :-----|:- |
-| Attribute src not allowed on element button|Since src is not the correct element to apply to a button I applied the img tag instead |Pass|
 
-### *Films section | Kidnapped |Killer Santa | Once Upon a Time:*
+
+### *source.js:*
 | Error | Soloution & Result | Pass or Fail |
 | :-------- | :-----|:- |
-|||
+|Line is longer than 80 characters.|I solved this issue by seperating comments in my code, making my code more readable|Pass|
+|Unexpected 'for' 'for (t in task)'||
+
+
 
 ## Testing User Stories:
 
