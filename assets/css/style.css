@@ -35,6 +35,9 @@
     margin-top: 0;
     line-height: 2rem;
   }
+  li{
+    cursor: pointer;
+  }
   .centredBox{
     background-color: rgb(114, 16, 5);
     border-radius: 18px;
@@ -80,6 +83,9 @@
     color: rgb(200, 200, 200); /*input text-colour for the user*/
     border-style:solid;
   }
+  .taskCount{
+    float: right;
+  }
   .addButton > svg{
     width: auto;
     height: 70%;
@@ -110,4 +116,7 @@
 
   #addButton{
     display: none;
+  }
+  .blue{
+    color:aqua;
   }
