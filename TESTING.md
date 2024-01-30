@@ -44,7 +44,10 @@ The following 'errors' did not affect my code in any meaningful way, and by remo
 | :-------- | :-----|:- |
 |Line is longer than 80 characters.|I solved this issue by seperating comments in my code, making my code more readable|Pass|
 |Unexpected 'for' 'for (t in task)'||
-
+|Undeclared 't'||
+|Unexpected trailing space. 'appForm.addEventListener("submit", function (event)'||
+|Redefinition of 'taskItem' from line 10. 'const taskItem = document.createElement("li")'
+||
 
 
 ## Testing User Stories:
