@@ -3,15 +3,9 @@
 //     let 
 // };
 
-const appForm = document.getElementById('appForm');
+const appForm = document.getElementById('appForm'); // The checklist form
 const taskList = document.getElementById('taskList');
-const taskCount = document.getElementById('task-count');
-// const listClicked = getElementsByTagName('li'); // Makes clicking on element delete the item
-
-// listClicked.addEventListener('click'){
-//     li.style.textDecoration = "line-through";
-// };
-
+const taskCount = document.getElementById('task-count'); // Float number
 
 if (localStorage.getItem('tasks')) {// Here I will add a new task when the form holds a value of more than one value
     const task = localStorage.getItem('tasks').split('|');
@@ -39,17 +33,27 @@ appForm.addEventListener('submit', function (event) {
     txtInput.value = '';
 
     taskCount.textContent = document.getElementsByTagName('li').length;
-    taskItem.addEventListener('click', function () {
-        console.log('done')
-        this.classList.toggle('blue')
+    
+// the Code below crosses out the item, but targets all of them instead of only one item
+    const crossOut = document.addEventListener('click', function () {
+        console.log('hi')
+        taskList.style.textDecoration = 'line-through';
     })
+
+
 });
 
-// let listClick = document.getElementsByTagName("li").addEventListener("click", function() {
-//              this.style.textDecoration = "line-through";
+
+
+
+
+// var liElements = document.getElementsByTagName('li');
+// for (var i = 0; i < liElements.length; i++) {
+//     liElements[i].addEventListener('click', function() {
+
+// this.style.backgroundColor = 'blue';
 // });
-
-
+// }
 
 
 // let listClick = document.getElementsByTagName("li")[0];
