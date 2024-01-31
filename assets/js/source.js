@@ -19,7 +19,7 @@ appForm.addEventListener("submit", function (event) {
     }
     txtInput.value = ""; //Sets user input box to empty
 
-    const taskItems = document.getElementsByTagName("li");
+    const taskItems = document.getElementsByTagName("li");//Cross out tasks
     for (let i = 0; i < taskItems.length; i++) {
         taskItems[i].addEventListener("click", function () {
             this.style.textDecoration = "line-through";
@@ -27,7 +27,9 @@ appForm.addEventListener("submit", function (event) {
     });
 }});
 
+
 if (localStorage.getItem("tasks")) {
+    //current bug prevents it from showing the item on float
     const task = localStorage.getItem("tasks").split("|"); //Seperates string
     for (const t of task){
         const taskItem = document.createElement("li"); //creates "li"
@@ -38,7 +40,8 @@ if (localStorage.getItem("tasks")) {
     taskCount.textContent = task.length;
 }
 
+// Getting date for display
 var date = new Date();
 var dateToString = date.toDateString();
 var time = date.toLocaleDateString();
-document.getElementById('time').innerHTML = dateToString + ' ' + time;
+document.getElementById("time").innerHTML = dateToString + " " + time;

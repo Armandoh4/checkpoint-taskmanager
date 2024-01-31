@@ -1,14 +1,16 @@
 # My Second Project - Checklist
 ---
 
-[View My Github Project on 'Pages'](https://armandoh4.github.io/checkpoint-taskmanager/)
+[CLICK HERE to View My Github Project on 'Pages'](https://armandoh4.github.io/checkpoint-taskmanager/)
 
 ---
 ## Introduction
 
-'Checkpoint' is a checklist app which allows users to create "list items," representing their real world goals and tasks. The purpose of this app is to allow the user to keep track of their active tasks in real time. The app is simple, it allows the user to create their own unique tasks, checking them off once completed.
+'Checkpoint' is a checklist web-app which allows users to create "list items," representing their real world goals and tasks. The purpose of this app is to allow the user to keep track of their active tasks in real time. The app is simple, it allows the user to create their own unique tasks, checking them off once completed.
 
 This is an app hosted localy and keeps track of what the user inputs onto the local host. The app sports a minimalistic design, with a red colour theme. In this project I was aiming for good function and providing good utility for the user.
+
+![Checkpoint app overview](./assets/readmeimage/checklistitems.png)
 ---
 ## CONTENTS:
 ---
@@ -30,8 +32,6 @@ This is an app hosted localy and keeps track of what the user inputs onto the lo
 
 * [BUGS](#bugs)
   * [Known Bugs](#known-bugs)
-  * [Solved Bugs](#solved-bugs)
-
 * [Acknowledgments](#acknowledgments)
 ---
 ## User Experience:
@@ -75,15 +75,11 @@ In this project I will be creating an Todo-list app.
 
 2) Using the new box, the user will be able to describe the contents of the task
 
-3) The user will also be asked to assign a value to the task [Trivial] [Easy] [Medium] [Hard]. 'Trivial' is the default if none are selected
+3) Once done, there will be another option '✓' to upload the task to the page.
 
-4) Once step 2 & 3 Are completed, there will be another option '✓' to upload the task to the page.
+4) When a task is present, there will be a method which allows the user to check off the task as 'completed'
 
-5) When a task is present, there will be a a checkbox which allows the user to check off the task as 'completed'
-
-6) Once the item has been checked off they will have a line go through it and the item will be removed from the list shortly after. Based on the difficulty of the task, a point will be given to the user.
-
-7) If the user does not complete a task above 'trivial' after 24 hours it will take away health regardless of the difficulty 
+5) Once the item has been checked off they will have a line go through it and the item may be removed from the list shortly after.
 
 ### Future Implementations
 
@@ -103,8 +99,7 @@ While I was not able to find the time to accomplish this yet, as I am still comi
 ---
 ### Known bugs:
 
-### Fixed Bugs:
----
+
 ##  Acknowledgments:
 ---
 Currently no acknowledgments

@@ -49,7 +49,8 @@ After thorough testing, all HTML Code Valid:
 |Unexpected trailing space. 'appForm.addEventListener("submit", function (event)'||
 |Redefinition of 'taskItem' from line 10. 'const taskItem = document.createElement("li")'
 |Unexpected trailing space|Removal of spacing at the end of '{'|PASS|
-
+|Unexpected 'let' - ' for (let i = 0; i < taskItems.length; i++)'||
+|Used single quotes in elements like 'time'|I removed single quotes from these variable names|
 
 ## Testing User Stories:
 
