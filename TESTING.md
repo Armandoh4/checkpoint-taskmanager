@@ -16,14 +16,13 @@
     
 | Bug (class)   | Error  | Soloution & Result |
 | :------------ |:---------------| :-----|
-|||
-|||
+|I had 4 warnings for 'webkit' elements (see screenshot below)|These were not necesarry elements and therefore were easily removed. This is especially true for the changes to the scrollbar, which would be unnoticable for such an aplication as this.|PASS|
 
-![Jigsaw CSS](assets/readme_img/jigsawcssvalidator1.png)
+![W3C Validator](./assets/readmeimage/csserrors.png)
+After Removal of the aformentioned items:
+![Jigsaw CSS](./assets/readmeimage/cssvalid.png)
 
 The following 'errors' did not affect my code in any meaningful way, and by removing this code, my website would loose features. For example, code such as "-webkit-tap-highlight-color: transparent;" can have a positive effect on the webpage, such as removing the blue box when a button on a mobile is clicked, improving mobile UX.
-
-![Jigsaw CSS](assets/readme_img/jigsawcssvalidator.png)
 
 
 ## W3C HTML Validation
@@ -32,11 +31,13 @@ The following 'errors' did not affect my code in any meaningful way, and by remo
 
 | Error | Soloution & Result | Pass or Fail |
 | :-------- | :-----|:- |
-|||
-|||
+|Bad value - Empty string instead of MIME type|I removed the type proprrty|PASS|
+|tag body seen but an element of the same type was already open|To fix this, I removed the second "body" element|PASS|
+|Saw an end tag after body had been closed.|Removed additional body element, allowing the page to render content correctly. Resolving this issue also resolved multiple other errors in the validator|PASS|
+|Attribute aria-placeholder not allowed on element div at this point|Here I removed the unused aria-element to resolve the bug|PASS|
 
-
-
+After thorough testing, all HTML Code Valid:
+![All HTML Code Valid](./assets/readmeimage/htmlvalid.png "HTML valid")
 
 
 ### *source.js:*
