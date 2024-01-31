@@ -43,7 +43,7 @@ The following 'errors' did not affect my code in any meaningful way, and by remo
 | Error | Soloution & Result | Pass or Fail |
 | :-------- | :-----|:- |
 |Line is longer than 80 characters.|I solved this issue by seperating comments in my code, making my code more readable|Pass|
-|Unexpected 'for' 'for (t in task)'||
+|Unexpected 'for' 'for (t in task)'|By converting from a 'for ... in' loop, to a 'for ... of'. This allows for better looping ofver an array, rather than an object|PASS|
 |Undeclared 't'||
 |Unexpected trailing space. 'appForm.addEventListener("submit", function (event)'||
 |Redefinition of 'taskItem' from line 10. 'const taskItem = document.createElement("li")'
