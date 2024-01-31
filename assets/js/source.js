@@ -23,7 +23,7 @@ appForm.addEventListener("submit", function (event) {
     for (let i = 0; i < taskItems.length; i++) {
         taskItems[i].addEventListener("click", function () {
             this.style.textDecoration = "line-through";
-            this.style.textDecoration = "line-through";
+            this.style.color = "#000000"; //styles for completed tasks
     });
 }});
 

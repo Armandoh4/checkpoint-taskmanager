@@ -6,7 +6,6 @@
     --bg-primary: #0f1016;
     --bg-secondary: #14151b; /*less strong bg colour*/
     color-scheme: dark;
-    -webkit-tap-highlight-color: transparent; /*This makes mobile buttons not blue on click*/
   }
   body {
     color: rgb(255, 255, 255);
@@ -18,15 +17,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-  }
-  body::-webkit-scrollbar {
-    width: 0.55rem;
-  }
-  body::-webkit-scrollbar-track {
-    background: #7d7676;
-  }
-  body::-webkit-scrollbar-thumb {
-    background: #000000;
   }
   h1{
     line-height: 0;
