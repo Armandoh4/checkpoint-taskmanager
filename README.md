@@ -1,14 +1,14 @@
 # My Second Project - Checklist
 ---
 
-[View My Github Project on 'Pages'](https://armandoh4.github.io/Checkpoint-TaskManager/)
+[View My Github Project on 'Pages'](https://armandoh4.github.io/checkpoint-taskmanager/)
 
 ---
 ## Introduction
 
-'Task Manager' (TM) is a checklist app which allows users to create "list items," representing their real world goals and tasks. The purpose of this app is to allow th user to keep track of their active tasks in real time. The app allows the user to create new tasks, and add/remove the tasks from the list.
+'Checkpoint' is a checklist app which allows users to create "list items," representing their real world goals and tasks. The purpose of this app is to allow the user to keep track of their active tasks in real time. The app is simple, it allows the user to create their own unique tasks, checking them off once completed.
 
-TM is an app hosted localy and keeps track of what the user inputs onto the local host. The app prioritises a minimalistic design, aiming for maximum function and providing good utility for the user.
+This is an app hosted localy and keeps track of what the user inputs onto the local host. The app sports a minimalistic design, with a red colour theme. In this project I was aiming for good function and providing good utility for the user.
 ---
 ## CONTENTS:
 ---
@@ -87,11 +87,16 @@ In this project I will be creating an Todo-list app.
 
 ### Future Implementations
 
+In this project I was able to push the myself and my understanding of Javascript. However, I was not able to add features that I infact had hoped to implement. This included the ability to track tasks trough a point system. Each point would be granted to the used after the completion of a task, encouraging the user to complete more.
+
+I also wanted to add a timer function, which would penalise the user for taking too long to complete a task. This would take the effect of taking from the users 'health points.' I also would like to animate some functions using the timer function. This idea was inspired by the app 'Habitica' - a gamified mobile checklist application.
+
+While I was not able to find the time to accomplish this yet, as I am still coming to grips with what I can do with this language. I hope to be able to really push the limits of this app in the future.
+
 ### Accessibility
 
 ---
 ## Testing:
----
 [Testing found here](TESTING.md)
 ---
 ## Bugs:
@@ -102,4 +107,4 @@ In this project I will be creating an Todo-list app.
 ---
 ##  Acknowledgments:
 ---
-Currently no acknowledgments as i have no wifi to view any other code or content. 
+Currently no acknowledgments
