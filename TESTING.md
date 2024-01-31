@@ -47,7 +47,7 @@ The following 'errors' did not affect my code in any meaningful way, and by remo
 |Undeclared 't'||
 |Unexpected trailing space. 'appForm.addEventListener("submit", function (event)'||
 |Redefinition of 'taskItem' from line 10. 'const taskItem = document.createElement("li")'
-||
+|Unexpected trailing space|Removal of spacing at the end of '{'|PASS|
 
 
 ## Testing User Stories:
