@@ -1,6 +1,6 @@
-const appForm = document.getElementById("appForm"); // The checklist form
-const taskList = document.getElementById("taskList");
-const taskCount = document.getElementById("task-count"); // Float number
+const appForm = document.getElementById("app-form"); // The checklist form
+const taskList = document.getElementById("task-list");
+const taskCount = document.getElementById("task-count"); // Float number, top right corner
 
 if (localStorage.getItem("tasks")) {
     // Here I will add a new task when the form
@@ -8,7 +8,7 @@ if (localStorage.getItem("tasks")) {
     const task = localStorage.getItem("tasks").split("|");
     for (t in task){
         const taskItem = document.createElement("li");
-        taskItem.classList.add("task-item");
+        taskItem.classList.add("task-item"); //
         taskItem.textContent = taskText;
         taskList.appendChild(taskItem);
     }
@@ -30,8 +30,6 @@ appForm.addEventListener("submit", function (event) {
         taskList.appendChild(taskItem);
     }
     txtInput.value = "";
-
-
 
     const taskItems = document.getElementsByTagName("li");
 for (let i = 0; i < taskItems.length; i++) {
