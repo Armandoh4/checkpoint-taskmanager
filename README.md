@@ -30,7 +30,6 @@ This is an app hosted localy and keeps track of what the user inputs onto the lo
 * [TESTING](#testing)
 
 * [BUGS](#bugs)
-  * [Known Bugs](#known-bugs)
 * [Acknowledgments](#acknowledgments)
 ---
 ## User Experience:
@@ -57,10 +56,19 @@ Similar to my previous project 'Filmlab,' I have taken inspiration from Netflix'
 
  ![netflix example](./assets/readmeimage/colourscheme.png)
 
+I have also taken small inspiration from microsoft's 'todolist' app. However, microsoft incorperates many more features that I will not be emulating in my own code. This is because of the lack of resources on my end; but I hope to change that in the future and future releases after this project has been submitted.  
+
+![microsoft todolist example](./assets/readmeimage/mctodo.png)
+
+
 ### Typography:
 For typography, I used a light grey font colour providing a more delicate and comfortable reading experience.
 
 I used google fonts' "Quicksand" to further improve readability, as its roundness makes it easier to on the eyes, straining them less.
+
+I have also made the very concerted effort to keep this aplication very minimalistic to ensure that the end product is simple to use from bootup. I have used icons to also indecate te features of the program, for increased simplicity of the user experience.
+![submit](./assets/readmeimage/submitbutton.png)
+))
 
 ---
 ## Features:
@@ -86,12 +94,13 @@ While I was not able to find the time to accomplish this yet, as I am still comi
 ---
 ## Testing:
 [Testing found here](TESTING.md)
----
-## Bugs:
----
-### Known bugs:
 
+## Bugs:
+
+So far I have had a bug appear in the last few days before release, where my numeration of task stored in the 'float' element only works on some devices. It however does not show any bugs and only became finiky after I had run my code through a debugger. This is something that I would be able to fix in the future, however as I am unable to at this time, I leave it for the few devices that still are able to utilise the feature.
 
 ##  Acknowledgments:
----
-Currently no acknowledgments
+event.preventDefault(); -> the idea for using .prevent default came from:
+https://openjavascript.info/2022/12/13/get-checked-checkbox-values-from-html-form-with-javascript/
+
+Other inspiration came of the the design of thing like the microsoft todolist & netflix (credited in design section above).

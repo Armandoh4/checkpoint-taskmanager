@@ -54,6 +54,11 @@ After thorough testing, all HTML Code Valid:
 
 ## Testing User Stories:
 
+
+- Text Input: Pass
+
+
+
 ### First Time Visitor
 | User Story |Pass or Fail |Soloution & Result |
 | :---- |:-- |:-------|
