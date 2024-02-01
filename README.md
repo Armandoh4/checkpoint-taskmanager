@@ -23,7 +23,6 @@ This is an app hosted localy and keeps track of what the user inputs onto the lo
     * [Colour Scheme and Styling](#colour-scheme-and-styling) 
     * [Typography](#typography)
     * [Features](#features)
-    * [Consolidating the Design](#consolidating-design)
 
 * [Features](#features)
     * [Future Implementations](#future-implementations)
@@ -49,27 +48,22 @@ In this project I will be creating an Todo-list app.
 
 ---
 ## Design:
----
+
 ### Wireframing
             
 ### Colour Scheme and Styling
 
-### Consolidating Design
+Similar to my previous project 'Filmlab,' I have taken inspiration from Netflix's red and grey design. Since I prefer working in dark mode, being less strenuous on the eyes. I believe that many users would feel the same, opting for dark mode/ themes more often than may have been the case 10 years ago.
 
-### Home Page (Final Look)
+ ![netflix example](./assets/readmeimage/colourscheme.png)
 
-### Typography
+### Typography:
+For typography, I used a light grey font colour providing a more delicate and comfortable reading experience.
 
+I used google fonts' "Quicksand" to further improve readability, as its roundness makes it easier to on the eyes, straining them less.
 
 ---
 ## Features:
----
-<!-- example structure:
-* navigaton
-    *mobile x button
-        ![Burger Icon](assets/readme_img/burger.png)
-
---->
 
 1) The User will be able to create tasks by pressing a '+' button. This action will cause a test box to appear.
 
@@ -81,15 +75,13 @@ In this project I will be creating an Todo-list app.
 
 5) Once the item has been checked off they will have a line go through it and the item may be removed from the list shortly after.
 
-### Future Implementations
+### Future Implementations:
 
 In this project I was able to push the myself and my understanding of Javascript. However, I was not able to add features that I infact had hoped to implement. This included the ability to track tasks trough a point system. Each point would be granted to the used after the completion of a task, encouraging the user to complete more.
 
 I also wanted to add a timer function, which would penalise the user for taking too long to complete a task. This would take the effect of taking from the users 'health points.' I also would like to animate some functions using the timer function. This idea was inspired by the app 'Habitica' - a gamified mobile checklist application.
 
 While I was not able to find the time to accomplish this yet, as I am still coming to grips with what I can do with this language. I hope to be able to really push the limits of this app in the future.
-
-### Accessibility
 
 ---
 ## Testing:

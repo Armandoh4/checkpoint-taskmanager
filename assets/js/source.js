@@ -5,6 +5,8 @@ const taskCount = document.getElementById("task-count"); // Float number
 //Submit Form
 appForm.addEventListener("submit", function (event) {
     event.preventDefault(); //Stops page refresh
+    //the idea for using .prevent default came from:
+    //https://openjavascript.info/2022/12/13/get-checked-checkbox-values-from-html-form-with-javascript/
     const txtInput = document.getElementById("user-input-txt");
     const taskText = txtInput.value.trim();
     // trim remove blank spaces from users' input text
@@ -26,7 +28,6 @@ appForm.addEventListener("submit", function (event) {
             this.style.color = "#000000"; //styles for completed tasks
     });
 }});
-
 
 if (localStorage.getItem("tasks")) {
     //current bug prevents it from showing the item on float
