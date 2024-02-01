@@ -37,7 +37,7 @@ This is an app hosted localy and keeps track of what the user inputs onto the lo
 ### First Time Visitor GOAL
 
      1 - To create and delete tasks, keeping track of their todolist
-     2 - Users who suffer from memory loss, or ADHD may be more inclined to use such checklists. This tool would rovide them a method to free up thinking space, without creating mental or physical clutter (planning sheets)
+     2 - Users who suffer from memory loss, or ADHD may be more inclined to use such checklists. This tool would provide them a method to free up thinking space, without creating mental or physical clutter (planning sheets)
      3 -
 
 ### Returning Visitor Goal
@@ -64,6 +64,7 @@ Here is the second wireframe for the task manager. I wanted to make the text-inp
 Similar to my previous project 'Filmlab,' I have taken inspiration from Netflix's red and grey design. Since I prefer working in dark mode, being less strenuous on the eyes. I believe that many users would feel the same, opting for dark mode/ themes more often than may have been the case 10 years ago.
 
  ![netflix example](./assets/readmeimage/colourscheme.png)
+[Link to site](https://www.color-hex.com/color-palette/22942)
 
 I have also taken small inspiration from microsoft's 'todolist' app. However, microsoft incorperates many more features that I will not be emulating in my own code. This is because of the lack of resources on my end; but I hope to change that in the future and future releases after this project has been submitted.  
 
