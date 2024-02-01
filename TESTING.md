@@ -54,7 +54,6 @@ After thorough testing, all HTML Code Valid:
 
 ## Testing User Stories:
 
-### Visitor Goals
 | User Story |Pass or Fail |Soloution & Result |
 | :---- |:-- |:-------|
 |1 - To create and delete tasks, keeping track of their todo list|PASS|The app has a very simple to understand UI. Upon opening, they will be greeted by a textbox asking them to enter a task in the textbox. There is also a easily recognisable and familiar layout to most checklist apps.|

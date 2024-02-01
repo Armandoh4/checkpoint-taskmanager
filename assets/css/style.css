@@ -25,7 +25,7 @@
     margin-top: 0;
     line-height: 2rem;
   }
-  li{
+  li{ /*Javascript will add these items in the Dom*/
     cursor: pointer;
   }
   ol{
@@ -51,18 +51,17 @@
     grid-template-columns: 3fr 1fr;
     padding-bottom: 5%;
     justify-content: space-between;
-
   }
   .justifyRight{
     display: flex;
     justify-content: right;
   }
-  .header{
+  .header{ /*Similar to a title*/
     text-decoration: underline;
     color: rgba(240, 255, 255, 0.876);
     margin-bottom: 0.2rem;
   }
-  .header > img {
+  .header > img { /*Logo image checkbox*/
     height: 2rem;
     width: auto;
     padding-left: 0.5rem;
@@ -80,10 +79,10 @@
     color: rgb(200, 200, 200); /*input text-colour for the user*/
     border-style:solid;
   }
-  .taskCount{
+  .taskCount{ /*Contains number count of list items*/
     float: right;
   }
-  .addButton > svg{
+  .addButton > svg{ /*For submit-form button*/
     width: auto;
     height: 70%;
     background-color: rgba(255, 255, 255, 0);
@@ -112,7 +111,7 @@
   #addButton{
     display: none;
   }
-  #time{
+  #time{ /*Shows date on HTML*/
     font-size: 0.8rem;
     line-height: 1.3rem;
     color: rgba(255, 255, 255, 0.758);
