@@ -10,14 +10,14 @@
 This is an app hosted locally and keeps track of what the user inputs onto the local host. The app sports a minimalistic design, with a red colour theme. In this project I was aiming for good function and providing good utility for the user.
 
 ![Checkpoint app overview](./assets/readmeimage/checklistitems.png)
- - note: This may not be an accurate color representation of the project, as this screenshot was taken in dark mode.
+ - Note: This may not be an accurate color representation of the project, as this screenshot was taken in dark mode.
 
 ---
 ## CONTENTS:
 
 * [User Experience - UX](#user-experience) 
-    * [First Time Visitor GOAL](#first-time-visitor-goal)
-    * [Return Visitor GOAL](#returning-visitor-goal)
+    * [Visitor GOAL](#visitor-goal)
+
 
 * [Design](#design)
     * [Wireframing](#wireframing)
@@ -34,16 +34,11 @@ This is an app hosted locally and keeps track of what the user inputs onto the l
 * [Acknowledgments](#acknowledgments)
 ---
 ## User Experience:
-### First Time Visitor GOAL
+### Visitor GOAL
 
      1 - To create and delete tasks, keeping track of their todo list
      2 - Users who suffer from memory loss, or ADHD may be more inclined to use such checklists. This tool would provide them a method to free up thinking space, without creating mental or physical clutter (e.g. planning sheets).
-     3 -
-
-### Returning Visitor Goal
-In this project I will be creating an Todo-list app.
-
-    1 - Repeat users may find other uses for this app, such as using it as a grocery list or tool to create a list of tasks to help themselves be better oriented in what they want to accomplish
+     3 - Repeat users may find other uses for this app, such as using it as a grocery list or tool to create a list of tasks to help themselves be better oriented in what they want to accomplish
 
 
 ---
@@ -72,7 +67,7 @@ I have also taken small inspiration from Microsoft's 'todolist' app. However, Mi
 
 Here's an example of the old version of the application - before I added the date to the display.
 
- ![Netflix example](./assets/readmeimage/numberedlist.png)
+ ![Checklist](./assets/readmeimage/numberedlist.png)
 
 
 
