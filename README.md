@@ -115,6 +115,10 @@ With any application, design is vital to the future flourishing and propagation 
 
 So far I have had a bug appear in the last few days before release, where my numeration of the task stored in the 'float' element only works on some devices. It however does not show any bugs and only became finicky after I had run my code through a debugger. This is something that I would be able to fix in the future, however as I am unable to at this time, I leave it for the few devices that still are able to utilise the feature.
 
+![console error](./assets/readmeimage/consoleer.png)
+
+In my testing I have experienced console errors related to the local hosting of my site. I have also asked my mentor about this before submission of my code. I believe these are benign errors as they do not impede functionality of my code. Nor do they have any other impact.
+
 ##  Acknowledgments:
 event.preventDefault(); -> the idea for using .prevent default came from:
 https://openjavascript.info/2022/12/13/get-checked-checkbox-values-from-html-form-with-javascript/

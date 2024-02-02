@@ -27,19 +27,18 @@ appForm.addEventListener("submit", function (event) {
             this.style.textDecoration = "line-through";
             this.style.color = "#000000"; //styles for completed tasks
     });
-}});
 
-if (localStorage.getItem("tasks")) {
-    //current bug prevents it from showing the item on float
-    const task = localStorage.getItem("tasks").split("|"); //Seperates string
-    for (const t of task){
-        const taskItem = document.createElement("li"); //creates "li"
-        taskItem.classList.add("task-item"); //adds that "li" to "ol"
-        taskItem.textContent = taskText;
-        taskList.appendChild(taskItem);
-    }
-    taskCount.textContent = task.length;
-}
+    if (localStorage.getItem("tasks")) { // Mentioned this in bug report
+        //current bug prevents it from showing the item on float for some devices only
+        const task = localStorage.getItem("tasks").split("|"); //Seperates string
+        for (const t of task-list){
+            const taskItem = document.createElement("li"); //creates "li"
+            taskItem.classList.add("task-item"); //adds that "li" to "ol"
+            taskItem.textContent = task-list[t];
+            taskList.appendChild(taskItem);
+        }
+        taskCount.textContent = task.length;
+    }}});
 
 // Getting date for display
 var date = new Date();
